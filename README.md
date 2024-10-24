@@ -5,7 +5,7 @@ How to run this project
 
 Before going to run this project make sure you have successfully installed Vscode Editor with live server as well as latest node installed in your device
 
-1. git clone
+1. git clone "https://github.com/CodeVoot/Intelligent-Floor-Plan-Management-.git"
 2. npm init --y // initialize the node package manager
 3. npm i express fs body-parser cors // install all libraries and dependencies to run this project
 4. cd server  //  to head into the server file
