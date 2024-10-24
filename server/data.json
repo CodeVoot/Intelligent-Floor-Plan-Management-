@@ -1,0 +1,33 @@
+{
+  "floorPlans": {
+    "1": {
+      "layout": "mayank",
+      "timestamp": 1729697233663
+    },
+    "2": {
+      "layout": "chirag",
+      "timestamp": 1729697241871
+    },
+    "3": {
+      "layout": "agarwal",
+      "timestamp": 1729697268003
+    },
+    "56": {
+      "layout": "ahnilsd",
+      "timestamp": 1729697607078
+    }
+  },
+  "meetingRooms": [
+    {
+      "id": "Room1",
+      "capacity": 10,
+      "proximity": 5
+    },
+    {
+      "id": "Room2",
+      "capacity": 5,
+      "proximity": 2
+    }
+  ],
+  "offlineChanges": {}
+}

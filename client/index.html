@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor Plan Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Floor Plan Management</h1>
+
+    <!-- Update Floor Plan -->
+    <div class="input-field">
+        <label for="floorId">Floor ID</label>
+        <input type="text" id="floorId">
+        <label for="layout">Layout (JSON format)</label>
+        <textarea id="layout" rows="4"></textarea>
+        <button class="button" onclick="updateFloorPlan()">Update Floor Plan</button>
+    </div>
+   
+    <!-- Suggest Meeting Room -->
+    <div class="input-field">
+        <label for="participants">Number of Participants</label>
+        <input type="number" id="participants">
+        <button class="button" onclick="suggestMeetingRoom()">Suggest Room</button>
+    </div>
+
+    <!-- Message Display -->
+    <div id="responseMessage" class="message"></div>
+</div>
+
+</body>
+</html>
